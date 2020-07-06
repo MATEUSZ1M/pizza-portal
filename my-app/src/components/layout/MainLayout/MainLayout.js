@@ -1,13 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import PageNav from '../PageNav/PageNav';
-import Header from '../Header/Header';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
 
 const MainLayout = ({ children }) => {
   return (
     <div>
-      <Header />
-      <PageNav/>
+      <AppBar>
+        <Toolbar>
+          <PageNav />
+        </Toolbar>
+      </AppBar>
       {children}
     </div>
   );
