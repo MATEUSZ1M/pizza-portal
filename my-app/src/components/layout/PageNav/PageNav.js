@@ -3,7 +3,6 @@ import { NavLink } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
 import styles from './PageNav.module.scss';
 
-
 const PageNav = () => {
   return (
     <nav className={styles.component}>
@@ -30,13 +29,3 @@ const PageNav = () => {
 };
 
 export default PageNav;
-
-/* <NavLink to={`${process.env.PUBLIC_URL}/table`} activeClassName="active">
-        Table
-      </NavLink>
-      <NavLink to={`${process.env.PUBLIC_URL}/waiter`} activeClassName="active">
-        Waiter
-      </NavLink>
-      <NavLink to={`${process.env.PUBLIC_URL}/kitchen`} activeClassName="active">
-        Kitchen
-      </NavLink> */

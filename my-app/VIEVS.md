@@ -1,6 +1,6 @@
 #Dashboard
 -`/`
-    -statystyki disiajeszycvh zamówień (zdalne i lokalne)
+    -statystyki disiajeszych zamówień (zdalne i lokalne)
     -listę rezerwacji i eventów zaplanowanych na dzisiaj
 
 #Logowanie
@@ -11,7 +11,7 @@
 #Widok dostępności stolików
 `/tables`
     -wybór daty i godziny
-    -taqbela z listą rezerwacji oraz wydarzeń
+    -tabela z listą rezerwacji oraz wydarzeń
         -każda kolumna = 1 stolik
         -każdy wiersz = 30 minut
         -ma przypominać widok tygodnia w kalendarzu Google, gdzie w kolumnach zamiast dni są różne stoliki
