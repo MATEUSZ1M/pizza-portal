@@ -9,11 +9,10 @@ const MainLayout = ({ children }) => {
   return (
     <div>
       <AppBar>
-        <Container maxWidth="lg">
-          <Toolbar disableGutters>
-            <PageNav />
-          </Toolbar>
-        </Container>
+        <Toolbar disableGutters>
+          <PageNav />
+        </Toolbar>
+        <Container maxWidth="lg"></Container>
       </AppBar>
       <Toolbar disableGutters />
       <Container maxWidth="lg">{children}</Container>
